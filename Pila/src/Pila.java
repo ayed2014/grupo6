@@ -34,6 +34,12 @@ public class Pila {
     public Object verTope(){
         return array[index-1];
     }
+    public boolean esVacio(){
+        if (index==0){
+            return true;
+        }
+        return false;
+    }
 
 
 }
