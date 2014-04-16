@@ -1,0 +1,16 @@
+Nombre: Cola de prioridad
+Descripcion: permite ingresar un elemento y establecer un orden de egreso de la cola segun una prioridad establecida.
+Operaciones: encolar elemento, desencolar elemnento.
+-Nombre: Encolar elemnto
+Comentario: permite ingresar un elemento a la correspondiente cola segun su prioridad.
+Dominio: Cola, elemento.
+Codominio: Cola.
+Pre-condcion: el elemnento a ingresar tiene que tener especificada su prioridad y ser del mismo tipo que ya esta encolado.
+Post condicion: la cola con el elemnento ingresado en la ultima posicion.
+-Nombre: Desencolar elemento.
+Comentario: permite desencolar un elemento segun la prioridad que este tenga.
+Dominio: Cola.
+Codominio: elemento, cola.
+Pre condicion: que exista el elemento dentro de la cola.
+Post-condicion: un elemento desencolado segun la prioridad y la cola sin el elemento desencolado.
+
